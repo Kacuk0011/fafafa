@@ -70,7 +70,7 @@ class Main:
 				self.id.append(__+str(_))
 			
 			print("\033[0;93m[+] SCATTER PRIZES -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
-			with ThreadPoolExecutor(max_workers=30) as coeg:
+			with ThreadPoolExecutor(max_workers=400) as coeg:
 				print("%s[+] SCATTER PRIZES RATE [➤] %s00000,00000,000000"%(G,Y))
 				listpass = input("%s[+] MASUKAN NOMER ID AKUN :%s "%(G,Y))
 				if len(listpass)<=5:
